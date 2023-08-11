@@ -13,8 +13,16 @@ for(const head of headings){
 
 const listItem = document.getElementsByClassName('list-item');
 for(const list of listItem){
-    console.log(list.innerText);
+    // console.log(list.innerText);
 }
 
 const headID = document.getElementById('heading-two');
-console.log(headID.innerText="Heading Changed by JS");
+// console.log(headID.innerText="Heading Changed by JS");
+
+const list = document.querySelector('.list li');
+console.log(list.innerHTML);
+
+const listAll = document.querySelectorAll('.list li');
+for(const listAlls of listAll){
+    console.log(listAlls.innerHTML);
+}
