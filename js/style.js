@@ -19,7 +19,9 @@ for (const headings of heading) {
 // headingId.style.padding = "15px";
 
 const li =document.createElement("li");
+const li2 =document.createElement("li");
 
 const child = document.getElementById("childList");
 
 child.appendChild(li).innerText="this is from js";
+child.appendChild(li2).innerText="this is from js 2";
