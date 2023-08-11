@@ -4,7 +4,6 @@ for (const section of sections) {
     section.style.backgroundColor = "teal"
     section.style.padding = "10px"
     section.style.marginBottom = "10px"
-    console.log(section);
 }
 
 const heading = document.getElementsByClassName("headingTwo");
@@ -18,3 +17,9 @@ for (const headings of heading) {
 // headingId.style.backgroundColor = 'red';
 // headingId.style.color = "white";
 // headingId.style.padding = "15px";
+
+const li =document.createElement("li");
+
+const child = document.getElementById("childList");
+
+child.appendChild(li).innerText="this is from js";
